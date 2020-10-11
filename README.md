@@ -10,3 +10,8 @@ This readme will be updated with details of all the codes that will be uploaded
                                      
                                      
    Minimum distances are calculated using Euclidian distance method
+   
+
+2) TSP_Final.py: This is a solution to the Travelling salesman problem using 3 different approaches: 1) Nearest Neighbor insertion, 2) Heuristic Insertion and 3) Random tour generation. This code accepts one parameter which is a input file which contains total number of cities in the first line and city_id X_coordinates Y_coordinates in the following lines (seperated by whitespace). This assumes that all city ids and coordinates are provided in the input file
+
+   ### How to execute the file from command prompt:> python TSP_Final.py inputfilename
