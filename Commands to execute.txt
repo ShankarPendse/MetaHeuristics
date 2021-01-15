@@ -1,0 +1,105 @@
+All below commands are executed in PyCharm IDE in windows OS
+
+Run time could be different depending on the machine configuration.
+
+All source code files and data files are assumed to be in the same directory
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Conditions for error free exeuction:
+-------------------------------------
+	1. number of arguments passed should be exactly 3 (which configuration to run, file name and how many times we want to run that configuration for)
+	2. First argument helps in choosing the configuration to be run. It must be passed as an integer and it must be between 1 and 6 (both inclusive)
+	3. Second argument must be a file name
+	4. Third argument specifies how many times we want to run the configuration specified in Frist argument. It must an integer
+
+Failing to meet above conditions will result in error
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+Open the terminal navigatet to the path where all files are placed and execute below commands one by one or run any command at random:
+-------------------------------------------------------
+
+FOR SECTION1 of the Report:
+
+python TestTSP_R00195877.py 1 inst-4.tsp 1
+python TestTSP_R00195877.py 1 inst-16.tsp 1
+python TestTSP_R00195877.py 1 inst-6.tsp 1
+
+python TestTSP_R00195877.py 2 inst-4.tsp 1
+python TestTSP_R00195877.py 2 inst-16.tsp 1
+python TestTSP_R00195877.py 2 inst-6.tsp 1
+
+python TestTSP_R00195877.py 3 inst-4.tsp 1
+python TestTSP_R00195877.py 3 inst-16.tsp 1
+python TestTSP_R00195877.py 3 inst-6.tsp 1
+
+python TestTSP_R00195877.py 4 inst-4.tsp 1
+python TestTSP_R00195877.py 4 inst-16.tsp 1
+python TestTSP_R00195877.py 4 inst-6.tsp 1
+
+python TestTSP_R00195877.py 5 inst-4.tsp 1
+python TestTSP_R00195877.py 5 inst-16.tsp 1
+python TestTSP_R00195877.py 5 inst-6.tsp 1
+
+python TestTSP_R00195877.py 6 inst-4.tsp 1
+python TestTSP_R00195877.py 6 inst-16.tsp 1
+python TestTSP_R00195877.py 6 inst-6.tsp 1
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+For SECTION2 of the Report:
+
+python EvaluationTSP_R00195877.py 1 inst-4.tsp 1
+python EvaluationTSP_R00195877.py 2 inst-4.tsp 1
+python EvaluationTSP_R00195877.py 3 inst-4.tsp 1
+python EvaluationTSP_R00195877.py 4 inst-4.tsp 1
+python EvaluationTSP_R00195877.py 5 inst-4.tsp 1
+python EvaluationTSP_R00195877.py 6 inst-4.tsp 1
+
+For this we have to update the "eval_configurations" dictionary defined in the file "EvaluationTSP_R00195877.py" as per required settings
+
+eval_configurations" dictionary key values represents the configuration number, and value for each key is a list of 
+[popSize, mutation_probability, max_iterations, pop_initialization_method, crossover, mutation] in the order
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+For SECTION3 of the Report:
+
+python TestTSP_R00195877.py 1 inst-4.tsp 5
+python TestTSP_R00195877.py 2 inst-4.tsp 5
+python TestTSP_R00195877.py 3 inst-4.tsp 5
+python TestTSP_R00195877.py 4 inst-4.tsp 5
+python TestTSP_R00195877.py 5 inst-4.tsp 5
+python TestTSP_R00195877.py 6 inst-4.tsp 5
+
+
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+For SECTION4 of the Report:
+
+Before running below commands, make sure we are importing the module
+Experimental_TSP_R00195877.py instead of TSP_R00195877.py (we can just comment and uncomment the import sections in the file TestTSP_R00195877.py)
+
+
+python TestTSP_R00195877.py 1 inst-4.tsp 1
+python TestTSP_R00195877.py 1 inst-16.tsp 1
+python TestTSP_R00195877.py 1 inst-6.tsp 1
+
+python TestTSP_R00195877.py 2 inst-4.tsp 1
+python TestTSP_R00195877.py 2 inst-16.tsp 1
+python TestTSP_R00195877.py 2 inst-6.tsp 1
+
+python TestTSP_R00195877.py 3 inst-4.tsp 1
+python TestTSP_R00195877.py 3 inst-16.tsp 1
+python TestTSP_R00195877.py 3 inst-6.tsp 1
+
+python TestTSP_R00195877.py 4 inst-4.tsp 1
+python TestTSP_R00195877.py 4 inst-16.tsp 1
+python TestTSP_R00195877.py 4 inst-6.tsp 1
+
+python TestTSP_R00195877.py 5 inst-4.tsp 1
+python TestTSP_R00195877.py 5 inst-16.tsp 1
+python TestTSP_R00195877.py 5 inst-6.tsp 1
+
+python TestTSP_R00195877.py 6 inst-4.tsp 1
+python TestTSP_R00195877.py 6 inst-16.tsp 1
+python TestTSP_R00195877.py 6 inst-6.tsp 1
