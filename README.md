@@ -217,3 +217,23 @@ crossover, mutation]
 “basic_configurations " dictionary key values represents the configuration number, and value for each key is a list as mentioned below 
 [popSize, mutation_probability, max_iterations, pop_initialization_method, 
 crossover, mutation]
+
+# ####################################################################################################################################################################
+
+1.	TSP 2OPT LOCAL SEARCH:
+Place the supplied .py files and data files in same directory. To see the same results as presented in the report, please use the files inst-4.tsp, inst-16.tsp and inst-6.tsp. Please do not alter the random seed if you want to see the same results as depicted in the report (Pendse_Shankar_R00195877_MH2)
+
+This can be run from command prompt (terminal/pycharm terminal) as follows:
+
+1)	Two_opt_local_search_tsp.py “filename” “basic”
+This command will run the basic version of 2-opt algorithm on the specified file name, with random initialization of the tour.
+
+2)	Two_opt_local_search_tsp.py “filename” “variant1”
+This command will run the first variant of 2-opt algorithm on the specified file name, with random initialization of the tour
+
+3)	Two_opt_local_search_tsp.py “filename” “variant2”
+This command will run the second variant of 2-opt algorithm on the specified file name, with random initialization of the tour
+
+By default, all the execution happens for 1 time, if you want to run it for more than 1 time, please open the file two_opt_ls_v1_4.py, change the assignment value of self.times = 1 , on line number 24
+
+
