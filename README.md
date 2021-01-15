@@ -86,7 +86,7 @@ Failing to meet above conditions will result in error
 Open the terminal navigatet to the path where all files are placed and execute below commands one by one or run any command at random:
 -------------------------------------------------------
 
-FOR SECTION1 of the Report:
+# FOR SECTION1 of the Report (R00195877_REPORT.pdf):
 
 python TestTSP_R00195877.py 1 inst-4.tsp 1
 python TestTSP_R00195877.py 1 inst-16.tsp 1
@@ -114,7 +114,7 @@ python TestTSP_R00195877.py 6 inst-6.tsp 1
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-For SECTION2 of the Report:
+# For SECTION2 of the Report (R00195877_REPORT.pdf):
 
 python EvaluationTSP_R00195877.py 1 inst-4.tsp 1
 python EvaluationTSP_R00195877.py 2 inst-4.tsp 1
@@ -130,7 +130,7 @@ eval_configurations" dictionary key values represents the configuration number, 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-For SECTION3 of the Report:
+# For SECTION3 of the Report (R00195877_REPORT.pdf):
 
 python TestTSP_R00195877.py 1 inst-4.tsp 5
 python TestTSP_R00195877.py 2 inst-4.tsp 5
@@ -142,7 +142,7 @@ python TestTSP_R00195877.py 6 inst-4.tsp 5
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
 
-For SECTION4 of the Report:
+# For SECTION4 of the Report (R00195877_REPORT.pdf) :
 
 Before running below commands, make sure we are importing the module
 Experimental_TSP_R00195877.py instead of TSP_R00195877.py (we can just comment and uncomment the import sections in the file TestTSP_R00195877.py)
@@ -175,14 +175,14 @@ python TestTSP_R00195877.py 6 inst-6.tsp 1
 
 
 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-# For SECTION 1 part of the report:
+# For SECTION 1 part of the report (R00195877_REPORT.pdf):
 To run the basic asked configurations please use below command:
 >> python TestTSP_R00195877.py <config number> <filename> <iterations>
 •	Config number must be any one from [1,2,3,4,5,6] 
 •	Filename : tsp instance file name
 •	Iterations: how many times we want to run the specified config
 
-# For SECTION 2 part of the report:
+# For SECTION 2 part of the report (R00195877_REPORT.pdf):
 To Evaluate the performance of GA, please use below command:
 >> python EvaluationTSP_R00195877.py <config number> <filename> <iterations>
 •	Config number must be any one from [1,2,3,4,5,6] 
@@ -190,7 +190,7 @@ To Evaluate the performance of GA, please use below command:
 •	Iterations: how many times we want to run the config
 •	Note: Please make sure to alter the configuration dictionary in the file EvaluationTSP_R00195877.py as required to alter the values of population size, mutation rate and max_iterations
 
-# For SECTION3 part of the report
+# For SECTION3 part of the report (R00195877_REPORT.pdf) :
 To Analyse the performance over of GA on each configuration run over 5 times use below command:
 	>> python TestTSP_R00195877.py <config number> <filename> <iterations>
 •	Config number must be any one from [1,2,3,4,5,6] 
