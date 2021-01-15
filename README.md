@@ -225,13 +225,13 @@ Place the supplied .py files and data files in same directory. To see the same r
 
 This can be run from command prompt (terminal/pycharm terminal) as follows:
 
-1)	Two_opt_local_search_tsp.py “filename” “basic”
+1)	Two_opt_local_search_TSP.py “filename” “basic”
 This command will run the basic version of 2-opt algorithm on the specified file name, with random initialization of the tour.
 
-2)	Two_opt_local_search_tsp.py “filename” “variant1”
+2)	Two_opt_local_search_TSP.py “filename” “variant1”
 This command will run the first variant of 2-opt algorithm on the specified file name, with random initialization of the tour
 
-3)	Two_opt_local_search_tsp.py “filename” “variant2”
+3)	Two_opt_local_search_TSP.py “filename” “variant2”
 This command will run the second variant of 2-opt algorithm on the specified file name, with random initialization of the tour
 
 By default, all the execution happens for 1 time, if you want to run it for more than 1 time, please open the file two_opt_ls_v1_4.py, change the assignment value of self.times = 1 , on line number 24
