@@ -1,5 +1,6 @@
 # MetaHeuristics
-This repository will be used for solving the Lab exercises and assignments that were assigned during the Master's course in AI
+This repository will be used for solving NP-Complete/NP-Hard problems
+
 This readme will be updated with details of all the codes that will be uploaded
 
 # TSP.py and it's description is as below:
